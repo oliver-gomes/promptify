@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* main */
+.heading-text {
+  @apply font-bold text-4xl md:text-5xl font-black;
+}
+
+.desc {
+  @apply mx-6 md:w-6/12 md:mx-auto mt-6 text-left font-light;
+}
+
+.blue-btn {
+  @apply bg-blue-600 px-4 py-2 rounded-full text-white;
+}
+
+.textarea-prompt {
+  @apply h-[100px] p-4 bg-gray-50 rounded-lg w-full;
+}
+/* 
+ prompt card 
+ */
+.prompt-card {
+  @apply rounded-lg border border-gray-300 p-6 pb-4 my-4 backdrop-filter md:w-full w-full h-fit;
+}
+
+.popover-nav {
+  @apply bg-slate-50 rounded;
+}
+
+.not-upvoted {
+  @apply bg-gray-100 rounded-full px-2 py-1 text-gray-500;
+}
+.upvoted {
+  @apply bg-gray-100 rounded-full px-2 py-1 text-gray-800;
+}
+
+.delete-btn {
+  @apply text-red-600 text-[12px] font-light mt-5;
+}
+
+/* search */
+.search-input {
+  @apply w-full rounded-md border border-gray-200 py-3 px-4 text-sm shadow-lg focus:outline-none mt-6;
+}
